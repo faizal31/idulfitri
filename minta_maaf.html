@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Idul Fitri</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #00f80c;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 48px;
+            color: #ff0000;
+            text-align: center;
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        .crescent {
+            width: 100px;
+            height: 100px;
+            background-color: #fbff00;
+            border-radius: 50%;
+            position: relative;
+            margin: 20px auto;
+        }
+        .crescent::before {
+            content: '';
+            width: 100px;
+            height: 100px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Assalamu'alaikum wr.wb</h1>
+    
+    <div class="crescent"></div>
+
+    <div class="card">
+        <h2>Mohon Maaf Lahir dan Batin🙏</h2>
+        <p>Di hari yang penuh berkah ini, izinkan saya Hadziq Faizal Purnomo, dari Kelas X PPLG 1 ingin mengucapkan permohonan maaf yang tulus dari lubuk hati saya. Setiap kata dan tindakan yang mungkin telah menyakiti, saya mohon untuk dimaafkan. Semoga kita bisa melangkah bersama menuju hari-hari yang lebih baik, saling mendukung dan menguatkan. Mari kita pererat tali silaturahmi dan berbagi kebahagiaan, karena tidak ada yang lebih indah daripada saling memaafkan dan memulai lembaran baru dengan penuh cinta dan harapan🙏.</p>
+    </div>
+
+</body>
+</html>
